@@ -1,3 +1,3 @@
 # Code Refactor Starter Code
 
-![App Screenshot](/urban-octo-telegram/Develop/assets/images/README-screenshot.png)
+![Horiseon Challenge 1 Screenshot](/urban-octo-telegram/Develop/assets/images/README-screenshot.png?raw=true "Page Screenshot")
