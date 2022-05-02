@@ -1,4 +1,4 @@
-/* Universal Styling */
+/* Universal styles*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,7 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Start Header Styling */
+/* Start Header styles*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,7 +25,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* Navigation Links */
+    /* Navigation Links */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,19 +33,20 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+.header nav a {
+    color: #ffffff;
+}
 .header nav ul {
     list-style-type: none;
 }
-
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* End Navigation Styling */
-/* End Header Styling */
+    /* End Navigation styles */
+/* End Header styles */
 
-/* Hero Styling */
+/* Hero styles */
 .hero {
     height: 800px;
     width: 100%;
@@ -54,32 +55,28 @@ body {
     background-size: cover;
     background-position: center;
 }
-/* Main "Content" Section Styling */
+/* Main "Content" Section styles */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
 .content a {
     color: #ffffff;
     text-decoration: none;
 }
-
 .content p {
     font-size: 16px;
 }
-
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Search Engine Optimization section styles */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -88,7 +85,14 @@ body {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* Online Reputation Management styles */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -97,7 +101,14 @@ body {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* Social Media Marketing styles */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -106,36 +117,17 @@ body {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
 .social-media-marketing img {
     max-height: 200px;
 }
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* End "Content" Section Styling */
+/* End "Content" section styles */
 
-/* Begin Vertical Left Side Info Section Styling */
+/* Left sidebar styles start */
+    /*Universal Left sidebar styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -146,72 +138,64 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
 .benefits a {
     color: #ffffff;
     text-decoration: none;
 }
-
 .benefits p {
     font-size: 16px;
 }
-
+    /* Lead generation styles */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+    /* Brand Awareness styles */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+    /* Cost Management styles */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* End Vertical Left Side Information Styling */
+/* End Left sidebar styles */
 
+/* Footer styles */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
 .footer h2 {
     font-size: 20px;
 }
